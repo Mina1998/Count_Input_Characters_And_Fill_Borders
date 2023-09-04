@@ -5,7 +5,7 @@
 }
 
 form {
-    width: 300px;
+    width: fit-content;
     margin: 30px auto;
 }
 
@@ -19,22 +19,28 @@ input {
 }
 
 .progress {
-    background-color: red;
+    background-color: darkblue;
     height: 3px;
     width: 0;
     position: relative;
     top: -3px;
     display: block;
     left: 0;
+    transition: 0.3s;
 }
 
 .count {
     text-align: right;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px;
 }
 
 .zero {
+    font-weight: bold;
     color: red;
+}
+
+.zero-progress {
+    background-color: red;
 }
