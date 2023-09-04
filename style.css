@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 300px;
+    margin: 30px auto;
+}
+
+input {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom: 3px solid #ddd;
+}
+
+.progress {
+    background-color: red;
+    height: 3px;
+    width: 0;
+    position: relative;
+    top: -3px;
+    display: block;
+    left: 0;
+}
+
+.count {
+    text-align: right;
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.zero {
+    color: red;
+}
